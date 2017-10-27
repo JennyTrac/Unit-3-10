@@ -1,0 +1,106 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter all your marks to get your current average:",
+          "font_name" : "<System>",
+          "name" : "instruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "3AC97939-8F54-4E2F-85C7-53408C9C923D"
+        },
+        "frame" : "{{18, 20}, {506, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "When finished, enter \"-1\" to get your final mark.",
+          "font_name" : "<System>",
+          "name" : "instruction2_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "AA711E88-6146-480A-AE70-9793F60B7CB7"
+        },
+        "frame" : "{{18, 60}, {506, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "mark_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "94896772-4ECD-4781-B05F-DF1FFD0A2BB8"
+        },
+        "frame" : "{{18, 114}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "3B5FE8BA-F7E3-43FD-8E54-4721FD140F3C",
+          "name" : "calculate_button",
+          "action" : "calculate_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate"
+        },
+        "frame" : "{{226, 114}, {90, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "average_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "386F0839-0FC8-4870-8A2C-BFFCCB129681"
+        },
+        "frame" : "{{18, 179}, {506, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
